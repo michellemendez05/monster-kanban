@@ -62,8 +62,11 @@ export default function Monster({ color, height = "h-24" }) {
             ref={setPupilRef}
             className="absolute w-2 h-2 bg-black rounded-full top-1.5 left-1.5 transition-transform duration-75 ease-linear"
           />
+      </div>
+       {/* Mouth */}
+      <div className="absolute w-8 h-1 bg-black rounded-full bottom-2 left-6">
+      </div>
         </div>
       </div>
-    </div>
   );
 }
